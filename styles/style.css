@@ -205,3 +205,31 @@ main{
 
 /* contact section css */
 
+.footer{
+    background-color: #FFF8F3;
+}
+.contact{
+    padding: 130px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 115px;
+}
+
+.cm-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.c-description{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.c-icon a{
+    text-decoration: none;
+    margin-right: 20px;
+}
