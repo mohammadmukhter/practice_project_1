@@ -19,6 +19,19 @@
     background: #FD6E0A;
 }
 
+.btn-outlined{
+    color:#FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: none;
+    outline: 1px solid #FD6E0A;
+}
+
+
 .header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
@@ -211,7 +224,6 @@ main{
 .contact{
     padding: 130px 200px;
     display: flex;
-    justify-content: space-between;
     gap: 115px;
 }
 
@@ -232,4 +244,15 @@ main{
 .c-icon a{
     text-decoration: none;
     margin-right: 20px;
+}
+
+.m-form input, textarea{
+    padding: 20px 10px;
+    margin: 5px 0px;
+    border: none;
+    width: 100%;
+}
+
+.btn-form{
+    margin-top: 20px;
 }

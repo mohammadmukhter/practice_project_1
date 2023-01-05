@@ -7,7 +7,7 @@
     <title>practice_project_1</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -29,8 +29,12 @@
                 <h1 class="banner-sub-title-description">Mary Hardy</h1>
                 <p class="banner-description">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
                 <div class="banner-btn-container">
-                    <button class="btn-primary">Download CV</button>
-                    <button>Contact</button>
+                    <button class="btn-primary"><span class="material-symbols-outlined">
+                        download
+                        </span> Download CV</button>
+                    <button class="btn-outlined"><span class="material-symbols-outlined">
+                        call
+                        </span> Contact</button>
                 </div>
             </div>
             <div class="banner-items">
@@ -165,17 +169,16 @@
                         <p class="edu-description">List skill/technologies here. You can change the icon above 
                             to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
                         </p>
-                        <hr>
                     </div>
                 </div>
     
                 <div class="edu-container">
                     <div class="edu-items">
                         <div class="edu-title">
-                            My Education
+                            My experiences 
                         </div>
                         <div class="edu-sub-title">
-                            Master in computer Engineering
+                            Sr front end developer
                         </div>
                         <p class="edu-title-description">Harvard University / 2015 - 2017</p>
                         <p class="edu-description">List skill/technologies here. You can change the icon above 
@@ -220,13 +223,14 @@
                         <p class="edu-description">List skill/technologies here. You can change the icon above 
                             to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
                         </p>
-                        <hr>
                     </div>
                 </div>
             </div>
 
             <div class="resume-btn">
-                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary"><span class="material-symbols-outlined">
+                    download
+                    </span> Download CV</button>
             </div>
 
         </section>
@@ -254,18 +258,18 @@
                 <div class="cm-title">
                     Let's Message me
                 </div>
-                <div>
+                <div class="m-form">
                     <form action="#">
                         <div>
-                            <input type="text" name="your_name" class="your_name">
+                            <input type="text" name="your_name" class="your_name" placeholder="name">
                         </div>
                         <div>
-                            <input type="email" name="your_email" class="your_email">
+                            <input type="email" name="your_email" class="your_email" placeholder="email">
                         </div>
                         <div>
-                            <textarea type="textarea" name="your_message" id="your_message"></textarea>
+                            <textarea type="textarea" name="your_message" id="your_message" placeholder="message"></textarea>
                         </div>
-                        <div>
+                        <div class="btn-form">
                             <button type="button" class="btn-primary">Send Message</button>
                         </div>
                     </form>
